@@ -1,3 +1,5 @@
+node-packages is [require.js](http://requirejs.org/) for node.js.
+
 ### Motification
 
 - Flattens & simplifies application structure. 
