@@ -84,3 +84,17 @@ loads packages from a directory
 
 loads all the packages 
 
+#### packages.exports
+
+all the loaded packages
+
+### Package API
+
+
+```javascript
+exports.require = [ "package.name", ["multiple.packages.*"], /package.to.match/ ];
+exports.load    = function(singlePackage, multiplePackages, anotherSinglePackage, optionalSyncNext) {
+  
+};
+```
+
