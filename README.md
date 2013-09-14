@@ -1,4 +1,3 @@
-
 ### Example
 
 ```
@@ -45,4 +44,43 @@ exports.load = function (app) {
 };
 ```
 
-### API
+### Packages API
+
+#### packages packages()
+
+Initializes new packages loader
+
+#### packages.add(name, package)
+
+Adds a package. Below's an example where this might be useful.
+
+`lib/index.js`:
+
+```javascript
+var packages = require("packages");
+
+module.exports = function (config) {
+  packages.
+  add("config", config).
+  require(__dirname + "/packages").
+  load();
+}
+```
+
+`lib/packages/http.server/index.js`:
+
+```javascript
+exports.require = ["config"];
+exports.load = function(config) {
+  //init server
+}
+```
+
+#### packages.require(path[, path])
+
+loads packages from a directory
+
+#### packages.load()
+
+loads all the packages 
+
