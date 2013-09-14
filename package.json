@@ -1,6 +1,6 @@
 {
   "name": "packages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node-packages is [require.js](http://requirejs.org/) for node.js.",
   "main": "./lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "readmeFilename": "README.md",
   "gitHead": "30ee8f86a15b03af880c91450350aad3c95d9830",
   "dependencies": {
-    "factories": "0.0.2",
+    "factories": "0.0.x",
     "type-component": "0.0.1",
     "toarray": "0.0.1",
     "express": "~3.4.0",

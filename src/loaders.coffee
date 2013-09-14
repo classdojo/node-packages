@@ -1,5 +1,6 @@
 events   = require "events"
 resolver = require "./resolver" 
+type     = require "type-component"
 
 class Loader
   
@@ -53,8 +54,35 @@ class Loaders extends events.EventEmitter
   ###
   ###
 
-  load: (name) ->
+  load: (search) ->
+    t = type(search)
+    if t is "array"
+      multi = true
+      search = search[0]
 
+    modules = []
+
+    if typeof search is "string"
+      modules = [@_loadString(search)]
+    else if search instanceof RegExp
+      for name of @_loaders
+        if search.test(name)
+          modules.push @load(name)
+          unless multi
+            break
+
+
+    if multi
+      return modules
+    else
+      return modules[0]
+
+
+
+  ###
+  ###
+
+  _loadString: (name) ->
     @resolve(name)
 
     loader = @_loaders[name]
