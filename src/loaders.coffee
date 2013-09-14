@@ -63,7 +63,9 @@ class Loaders extends events.EventEmitter
     modules = []
 
     if typeof search is "string"
-      modules = [@_loadString(search)]
+      pkg = @_loadString(search)
+      modules = [pkg]
+      @packages[search] = pkg
     else if search instanceof RegExp
       for name of @_loaders
         if search.test(name)
