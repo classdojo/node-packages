@@ -3,7 +3,6 @@
 - Flattens & simplifies application structure. 
 - Better encapsulation.
 - More consistent.
-- Easier to read, and understand.
 
 ### Example
 
