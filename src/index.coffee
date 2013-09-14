@@ -21,7 +21,9 @@ class Packages
    loads the packages
   ###
 
-  load: (next) -> @_loaders.loadAll next
+  load: (next) -> 
+    @_loaders.loadAll next
+    @
 
 
 module.exports = () -> new Packages()
