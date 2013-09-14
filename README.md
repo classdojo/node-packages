@@ -93,7 +93,7 @@ all the loaded packages
 
 ```javascript
 exports.require = [ "package.name", ["multiple.packages.*"], /package.to.match/ ];
-exports.load    = function(singlePackage, multiplePackages, anotherSinglePackage, optionalSyncNext) {
+exports.load    = function (singlePackage, multiplePackages, anotherSinglePackage, optionalSyncNext) {
   
 };
 ```
