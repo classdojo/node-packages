@@ -1,4 +1,3 @@
-Packages helps break your node.js application down into smaller, manageable pieces. 
 
 ### Example
 
