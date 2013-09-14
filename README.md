@@ -1,3 +1,9 @@
+### Motification
+
+- Flattens & simplifies application structure. 
+- Better encapsulation - makes code more re-usable.
+- Makes it easier to write code outside of the global context.
+
 ### Example
 
 ```
