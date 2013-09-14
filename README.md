@@ -1,8 +1,9 @@
 ### Motification
 
 - Flattens & simplifies application structure. 
-- Makes features more encapsulated.
-- Adds consistency to projects.
+- Better encapsulation.
+- More consistent.
+- Easier to read, and understand.
 
 ### Example
 
