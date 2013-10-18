@@ -2,5 +2,10 @@ resolverFactory = require "./factory"
 toarray         = require "toarray"
 
 exports.resolve = (path) ->
-  toarray resolverFactory.create(path).resolve()
+  resolver = resolverFactory.create(path)
+
+  unless resolver
+    throw new Error "unable to resolve '#{path}'"
+    
+  toarray resolver.resolve()
 
