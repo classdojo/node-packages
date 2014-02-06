@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose read json /Users/craig/Developer/Public/node-packages/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+14 verbose folder .
+15 info prepublish packages@0.0.4
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+18 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+19 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz /Users/craig/.npm/ccca5fd1-87497-0-6632216754369438-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+23 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+24 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+25 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+26 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package /Users/craig/.npm/6de50677-87497-0-6632216754369438-package.lock
+27 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+28 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz /Users/craig/.npm/ccca5fd1-87497-0-6632216754369438-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry examples/hello-world/index.js
+34 silly gunzTarPerm extractEntry examples/hello-world/packages/http.routes.hello/index.js
+35 silly gunzTarPerm extractEntry examples/hello-world/packages/http.server/index.js
+36 silly gunzTarPerm extractEntry lib/index.js
+37 silly gunzTarPerm extractEntry lib/loaders.js
+38 silly gunzTarPerm extractEntry lib/resolver/base.js
+39 silly gunzTarPerm extractEntry lib/resolver/directory.js
+40 silly gunzTarPerm extractEntry lib/resolver/factory.js
+41 silly gunzTarPerm extractEntry lib/resolver/index.js
+42 silly gunzTarPerm extractEntry lib/resolver/module.js
+43 silly gunzTarPerm extractEntry lib/resolver/obj.js
+44 silly gunzTarPerm extractEntry makefile
+45 silly gunzTarPerm extractEntry src/index.coffee
+46 silly gunzTarPerm extractEntry src/loaders.coffee
+47 silly gunzTarPerm extractEntry src/resolver/base.coffee
+48 silly gunzTarPerm extractEntry src/resolver/directory.coffee
+49 silly gunzTarPerm extractEntry src/resolver/factory.coffee
+50 silly gunzTarPerm extractEntry src/resolver/index.coffee
+51 silly gunzTarPerm extractEntry src/resolver/module.coffee
+52 silly gunzTarPerm extractEntry src/resolver/obj.coffee
+53 verbose read json /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package/package.json
+54 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+55 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+56 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+57 silly lockFile ccca5fd1-87497-0-6632216754369438-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/tmp.tgz
+58 verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package/package.json
+59 verbose tar pack [ '/Users/craig/.npm/packages/0.0.4/package.tgz',
+59 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package' ]
+60 verbose tarball /Users/craig/.npm/packages/0.0.4/package.tgz
+61 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+62 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+63 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package /Users/craig/.npm/6de50677-87497-0-6632216754369438-package.lock
+64 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+65 verbose lock /Users/craig/.npm/packages/0.0.4/package.tgz /Users/craig/.npm/92d7a402-g-npm-packages-0-0-4-package-tgz.lock
+66 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+67 silly lockFile 6de50677-87497-0-6632216754369438-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-13022/1382140187497-0.6632216754369438/package
+68 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+69 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+70 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+71 verbose lock /Users/craig/.npm/packages/0.0.4/package /Users/craig/.npm/209528bd-craig-npm-packages-0-0-4-package.lock
+72 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+73 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+74 verbose tar unpack /Users/craig/.npm/packages/0.0.4/package.tgz
+75 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+76 verbose lock /Users/craig/.npm/packages/0.0.4/package /Users/craig/.npm/209528bd-craig-npm-packages-0-0-4-package.lock
+77 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+78 verbose lock /Users/craig/.npm/packages/0.0.4/package.tgz /Users/craig/.npm/92d7a402-g-npm-packages-0-0-4-package-tgz.lock
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry README.md
+83 silly gunzTarPerm extractEntry examples/hello-world/index.js
+84 silly gunzTarPerm extractEntry examples/hello-world/packages/http.routes.hello/index.js
+85 silly gunzTarPerm extractEntry examples/hello-world/packages/http.server/index.js
+86 silly gunzTarPerm extractEntry lib/index.js
+87 silly gunzTarPerm extractEntry lib/loaders.js
+88 silly gunzTarPerm extractEntry lib/resolver/base.js
+89 silly gunzTarPerm extractEntry lib/resolver/directory.js
+90 silly gunzTarPerm extractEntry lib/resolver/factory.js
+91 silly gunzTarPerm extractEntry lib/resolver/index.js
+92 silly gunzTarPerm extractEntry lib/resolver/module.js
+93 silly gunzTarPerm extractEntry lib/resolver/obj.js
+94 silly gunzTarPerm extractEntry makefile
+95 silly gunzTarPerm extractEntry src/index.coffee
+96 silly gunzTarPerm extractEntry src/loaders.coffee
+97 silly gunzTarPerm extractEntry src/resolver/base.coffee
+98 silly gunzTarPerm extractEntry src/resolver/directory.coffee
+99 silly gunzTarPerm extractEntry src/resolver/factory.coffee
+100 silly gunzTarPerm extractEntry src/resolver/index.coffee
+101 silly gunzTarPerm extractEntry src/resolver/module.coffee
+102 silly gunzTarPerm extractEntry src/resolver/obj.coffee
+103 verbose read json /Users/craig/.npm/packages/0.0.4/package/package.json
+104 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+105 silly lockFile 209528bd-craig-npm-packages-0-0-4-package /Users/craig/.npm/packages/0.0.4/package
+106 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+107 silly lockFile 92d7a402-g-npm-packages-0-0-4-package-tgz /Users/craig/.npm/packages/0.0.4/package.tgz
+108 silly shasum updated bytes 4747
+109 info shasum 1d30ed3626560e4b78d5856349a5bf8284e3e128
+109 info shasum /Users/craig/.npm/packages/0.0.4/package.tgz
+110 verbose from cache /Users/craig/.npm/packages/0.0.4/package/package.json
+111 verbose chmod /Users/craig/.npm/packages/0.0.4/package.tgz 644
+112 verbose chown /Users/craig/.npm/packages/0.0.4/package.tgz [ 501, 20 ]
+113 silly lockFile 3a52ce78- .
+114 silly publish { name: 'packages',
+114 silly publish   version: '0.0.4',
+114 silly publish   description: 'node-packages is [require.js](http://requirejs.org/) for node.js.',
+114 silly publish   main: './lib/index.js',
+114 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+114 silly publish   repository:
+114 silly publish    { type: 'git',
+114 silly publish      url: 'git://github.com/classdojo/node-packages.git' },
+114 silly publish   author: '',
+114 silly publish   license: 'BSD',
+114 silly publish   readmeFilename: 'README.md',
+114 silly publish   gitHead: '30ee8f86a15b03af880c91450350aad3c95d9830',
+114 silly publish   dependencies:
+114 silly publish    { factories: '0.0.x',
+114 silly publish      'type-component': '0.0.1',
+114 silly publish      toarray: '0.0.1',
+114 silly publish      express: '~3.4.0',
+114 silly publish      resolver: '~0.1.11' },
+114 silly publish   devDependencies: { express: '~3.4.0' },
+114 silly publish   readme: 'node-packages is [require.js](http://requirejs.org/) for node.js.\n\n### Motification\n\n- Flattens & simplifies application structure. \n- Better encapsulation.\n- More consistent.\n\n### Example\n\n```\n- package.json - application package\n- lib/ - javascript source files\n  - index.js - main entry point\n    - packages/ - application components\n      - config/ - application config component\n      - http.server/ - http server component\n        - index.js   - package entry point\n      - http.routes/ - http routes\n        - index.js   \n```\n\nIn `lib/index.js`, you\'ll need something like:\n\n```javascript\nvar packages = require("packages");\n\npackages.\nrequire(__dirname + "/packages").\nload();\n```\n\nIn `http.server/index.js`, you might have something like:\n\n```javascript\nexports.require = ["express", "config"];\nexports.load = function (express, config) {\n  var app = express()\n  app.listen(config.get("port"));\n  return app;\n};\n```\n\nIn `http.routes/index.js`, you might have something like:\n\n```javascript\nexports.require = ["http.server"];\nexports.load = function (app) {\n  app.get("/hello", function (req, res) {\n    res.send("Hello World!");\n  });\n};\n```\n\n### Packages API\n\n#### packages packages()\n\nInitializes new packages loader\n\n#### packages.add(name, package)\n\nAdds a package. Below\'s an example where this might be useful.\n\n`lib/index.js`:\n\n```javascript\nvar packages = require("packages");\n\nmodule.exports = function (config) {\n  packages.\n  add("config", config).\n  require(__dirname + "/packages").\n  load();\n}\n```\n\n`lib/packages/http.server/index.js`:\n\n```javascript\nexports.require = ["config"];\nexports.load = function(config) {\n  //init server\n}\n```\n\n#### packages.require(path[, path])\n\nloads packages from a directory\n\n#### packages.load()\n\nloads all the packages \n\n#### packages.exports\n\nall the loaded packages\n\n### Package API\n\n\n```javascript\nexports.require = [ "package.name", ["multiple.packages.*"], /package.to.match/ ];\nexports.load    = function (singlePackage, multiplePackages, anotherSinglePackage, optionalSyncNext) {\n  \n};\n```\n\n',
+114 silly publish   _id: 'packages@0.0.4',
+114 silly publish   dist: { shasum: '1d30ed3626560e4b78d5856349a5bf8284e3e128' },
+114 silly publish   _from: '.' }
+115 verbose url raw packages
+116 verbose url resolving [ 'http://registry.npmjs.org/', './packages' ]
+117 verbose url resolved http://registry.npmjs.org/packages
+118 info trying registry request attempt 1 at 16:49:58
+119 http PUT http://registry.npmjs.org/packages
+120 http 409 http://registry.npmjs.org/packages
+121 verbose url raw packages
+122 verbose url resolving [ 'http://registry.npmjs.org/', './packages' ]
+123 verbose url resolved http://registry.npmjs.org/packages
+124 info trying registry request attempt 1 at 16:49:58
+125 http GET http://registry.npmjs.org/packages
+126 http 200 http://registry.npmjs.org/packages
+127 error publish fail Cannot publish over existing version.
+127 error publish fail Update the 'version' field in package.json and try again.
+127 error publish fail
+127 error publish fail If the previous version was published in error, see:
+127 error publish fail     npm help unpublish
+127 error publish fail
+127 error publish fail To automatically increment version numbers, see:
+127 error publish fail     npm help version
+128 error System Darwin 12.5.0
+129 error command "node" "/usr/local/bin/npm" "publish"
+130 error cwd /Users/craig/Developer/Public/node-packages
+131 error node -v v0.10.5
+132 error npm -v 1.2.18
+133 error code EPUBLISHCONFLICT
+134 verbose exit [ 1, true ]

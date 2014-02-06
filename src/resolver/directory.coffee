@@ -14,6 +14,7 @@ class DirectoryResolver extends require("./base")
     packages = []
 
     for file in fs.readdirSync(@_dir)
+      continue if file is ".DS_Store"
       fp = @_dir + "/" + file
       pkg = require fp
       pkg.name = file
