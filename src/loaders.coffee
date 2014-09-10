@@ -9,7 +9,7 @@ class Loader
 
   constructor: (@_loadable, @_loaders) ->
     @_required = @_loadable.require or []
-    @_load     = @_loadable.load
+    @_load     = @_loadable.plugin
 
 
   ###
