@@ -66,9 +66,10 @@ class Loaders extends events.EventEmitter
       pkg = @_loadString(search)
       modules = [pkg]
       @packages[search] = pkg
-    else if search instanceof RegExp
+    else
+      tester = @getTester(search)
       for name of @_loaders
-        if search.test(name)
+        if tester.test(name)
           modules.push @load(name)
           unless multi
             break
@@ -78,6 +79,16 @@ class Loaders extends events.EventEmitter
       return modules
     else
       return modules[0]
+
+  ###
+  ###
+
+  getTester: (search) ->
+    if search.test or search instanceof RegExp 
+      return search
+    else if typeof search is "function"
+      return { test: search }
+
 
 
 
