@@ -17,7 +17,7 @@ class ObjResolver extends require("./base")
       tg = @_target[name]
       packages.push 
         name: name
-        load: () => tg
+        plugin: () => tg
     packages
 
 

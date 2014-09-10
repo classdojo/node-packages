@@ -1,6 +1,6 @@
 {
   "name": "packages",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "node-packages is [require.js](http://requirejs.org/) for node.js.",
   "main": "./lib/index.js",
   "scripts": {

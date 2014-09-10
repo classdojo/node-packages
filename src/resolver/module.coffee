@@ -14,7 +14,7 @@ class ModuleResolver extends require("./base")
 
   resolve: () -> 
     name : @_name
-    load : () => require(@_name)
+    plugin : () => require(@_name)
 
   ###
   ###
